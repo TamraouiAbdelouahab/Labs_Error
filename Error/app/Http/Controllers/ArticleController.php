@@ -28,6 +28,6 @@ class ArticleController extends Controller
             'content' => $request->content,
         ]);
 
-        return redirect()->route('index')->with('success', 'Article ajouté avec succès.');
+        return redirect()->route('articles.index')->with('success', 'Article ajouté avec succès.');
     }
 }
