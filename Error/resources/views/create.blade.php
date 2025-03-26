@@ -17,6 +17,7 @@
         @endif
 
         <form action="{{ route('articles.store') }}" method="POST">
+            @csrf
         
 
             <div class="mb-4">
